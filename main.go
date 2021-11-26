@@ -59,6 +59,6 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
-		fmt.Fprintf(w, "Msg: %s!\n", article)
+		fmt.Fprintf(w, "Msg: %s!\n", article.Title)
     }
 }
